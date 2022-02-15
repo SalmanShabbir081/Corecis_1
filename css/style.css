@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #0562ec;
+  color: #ec1d25;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #0562ec;
+  color: #ec1d25;
   outline: none;
   text-decoration: none;
 }
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #0562ec;
+  background: #ec1d25;
   color: #fff;
 }
 
@@ -97,11 +97,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo {
-  margin: 20px;
+  margin: 10px;
 }
 
 #hero .hero-logo img {
-  max-width: 100%;
+  max-width: 25%;
 }
 
 #hero .hero-container {
@@ -162,8 +162,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #0562ec;
-  border: 2px solid #0562ec;
+  background: #ec1d25;
+  border: 2px solid #ec1d25;
   color: #fff;
 }
 
@@ -179,8 +179,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #0562ec;
-  border: 2px solid #0562ec;
+  background: #ec1d25;
+  border: 2px solid #ec1d25;
 }
 
 /*--------------------------------------------------------------
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #0562ec;
+  color: #ec1d25;
 }
 
 .nav-menu ul {
@@ -425,11 +425,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #0562ec;
+  color: #ec1d25;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #0562ec;
+  color: #ec1d25;
 }
 
 #mobile-body-overly {
@@ -477,7 +477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #0562ec;
+  background: #ec1d25;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -540,11 +540,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-icon {
   float: left;
-  background: #0562ec;
+  background: #ec1d25;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #0562ec;
+  border: 1px solid #ec1d25;
 }
 
 #services .service-icon i {
@@ -557,7 +557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #0562ec;
+  color: #ec1d25;
 }
 
 #services .service-title {
@@ -615,13 +615,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #0562ec;
-  border: 2px solid #0562ec;
+  background: #ec1d25;
+  border: 2px solid #ec1d25;
 }
 
 /* Portfolio Section
---------------------------------*/
-#portfolio {
+/* --------------------------------*/
+ #portfolio {
   background: #fff;
   padding: 80px 0;
 }
@@ -674,7 +674,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item:hover .details span {
   transform: translate3d(0, 0, 0);
-}
+} 
+
+
+
 
 /* Testimonials Section
 --------------------------------*/
@@ -702,7 +705,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #0562ec;
+  color: #ec1d25;
   margin-bottom: 5px;
 }
 
@@ -777,7 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #0562ec;
+  color: #ec1d25;
 }
 
 #team .member .social i {
@@ -794,27 +797,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info {
   color: #333333;
+  margin-top: 20%;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #0562ec;
+  color: #ec1d25;
   float: left;
 }
 
 #contact .info p {
-  padding: 0 0 10px 50px;
-  line-height: 24px;
+  padding: 0 0 20px 40px;
+  line-height: 20px;
 }
 
 #contact .form #sendmessage {
-  color: #0562ec;
-  border: 1px solid #0562ec;
+  color: #ec1d25;
+  border: 1px solid #ec1d25;
   display: none;
   text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+  padding: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 #contact .form #errormessage {
@@ -845,7 +849,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #0562ec;
+  background: #ec1d25;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -875,3 +879,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
